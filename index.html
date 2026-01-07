@@ -1,92 +1,146 @@
-<!DOCTYPE html>
+ <!DOCTYPE html> 
 <html lang="fr">
-<head> <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio | Développeuse FullStack Junior</title>
-    <link rel="stylesheet" href="style.css">
- </head>
- <body>
-    <nav class="navbar">
-        <div class="logo">Urielle Dev'folio</div>
-        <div class="menu">
-            <ol><a href="#accueil">Accueil</a></ol>
-            <ol><a href="#àpropos">A propos</a></ol>
-            <ol><a href="#projets">Projets</a></ol>
-            <ol><a href="#compétences">Compétences</a></ol>
-            <ol><a href="#contact">Contact</a></ol>
-      </div>
-    </nav>
-    <header class="hero">
-        <h1>Je suis Urielle <span>Quenum</span></h1>
-        <p>Je suis développeuse fullstack à en devenir, passionné du développement</p>
-        <a href="#projets" class="bouton">Décourvir mes projets</a>
-    </header>
-        <div class="apropos">
-            <h2>A propos de moi</h2>  
-        </div>
-        <div class="aproposcontainer">
-            <h2>Qui suis-je</h2>
-            <p> Je suis développeuse avec 1 année d'expérience. j'aime le développment web.
-                Mon objectif est de devenir développeuse fullstack. Je travaille avec HTML, CSS, Node.js, Three.js
-            </p>
-        </div>
-        
-        <div class="mescompetences">
-           <h2>Mes compétences</h2>
-        </div>
-        <div class="competencescontainer">
-                    <div class="competence1">
-                <div class="Competence image1">Image compétence 1</div>
-                <div class="Competence-info">
-                    <h3>Compétence 1</h3>
-                    <p>Description compétence 1 </p>
-                </div> 
-                 <div class="competence2">
-                <div class="Competence image1">Image compétence 2</div>
-                <div class="Competence-info">
-                    <h3>Compétence 2</h3>
-                    <p>Description compétence 2 </p>
-                </div> 
-                 <div class="competence3">
-                <div class="Competence image1">Image compétence 3</div>
-                <div class="Competence-info">
-                    <h3>Compétence 3</h3>
-                    <p>Description compétence 3 </p>
-                </div> 
-        </div>
-
-        <div class="mesrealisations">
-            <h2>Mes Réalisations</h2> 
-        </div>
-        <div class="portfolio-grid">
-            <div class="project-card1">
-                <div class="project-image">Image Projet 1</div>
-                <div class="project-info">
-                    <h3>Nom projet 1</h3>
-                    <p>Description projet 1</p>
-                </div>
-            </div>
-            
-            <div class="project-card2">
-                <div class="project-image">Image Projet 2</div>
-                <div class="project-info">
-                    <h3>Nom projet 2</h3>
-                    <p>Description projet 2</p>
-                </div>
-            </div>
-
-            <div class="project-card3">
-                <div class="project-image">Image Projet 3</div>
-                <div class="project-info">
-                    <h3>Nom projet 3</h3>
-                    <p>Description projet 3</p>
-                </div>
-            </div>
+  <head> 
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Mon Portfolio</title>
+    <!-- ===== Ajoute le lien vers le fichier style.css ===== --> 
+  </head> 
+  
+  <body> 
+    <!-- ===== HEADER / NAVIGATION ===== --> 
+  <header> 
+  <div class="container"> 
+   <nav> 
+     <div class="logo"> [Votre Nom] </div> 
+     <ul class="nav-links"> 
+       <li><a href="#about">À propos</a></li>
+       <li><a href="#skills">Compétences</a></li> 
+       <li><a href="#projects">Projets</a></li>
+       <li><a href="#contact">Contact</a></li>
+     </ul> 
+   </nav> 
+  </div> 
+ </header>
+    
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero"> 
+      <div class="container"> 
+        <h1> [Votre Titre Inspirant] </h1> 
+        <p> Je suis [votre domaine] passionné par [votre passion] </p> 
+        <a href="#projects" class="cta-button">Découvrir mes projets</a>
+      </div> 
+    </section> 
+    
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about" id="about"> 
+      <div class="container">
+        <h2 class="section-title">À propos de moi</h2> 
+        <div class="about-content"> 
+          <div class="about-image"> 
+            <img src="https://via.placeholder.com/400x400" alt="Photo de profil"> 
+          </div> 
+          <div class="about-text"> 
+            <h2> Qui suis-je ? </h2>
+            <p> Je suis un [domaine] avec [X ans] d'expérience. J'aime [ce que vous aimez faire]. </p> 
+            <p> Mon objectif est [votre objectif]. Je travaille avec [vos outils/technologies]. </p> 
+          </div> 
         </div> 
-
-
+      </div>
+    </section> 
+    
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills" id="skills">
+      <div class="container"> 
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-grid"> 
+          <div class="skill-card"> 
+            <div class="skill-icon">🌐</div> 
+            <h3>[Compétence 1]</h3> 
+            <p>[Description de votre compétence 1]</p>
+          </div> 
+          <div class="skill-card"> 
+            <div class="skill-icon">⚙️</div> 
+            <h3>[Compétence 2]</h3> 
+            <p>[Description de votre compétence 2]</p> 
+          </div> 
+          <div class="skill-card"> <div class="skill-icon">🎨</div> 
+            <h3>[Compétence 3]</h3> 
+            <p>[Description de votre compétence 3]</p> 
+          </div> 
+        </div> 
+      </div>
+    </section>
+    
+    <!-- ===== PROJECTS SECTION ===== --> 
+    <section class="projects" id="projects"> 
+      <div class="container"> 
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid"> 
+          <div class="project-card"> 
+            <div class="project-image">[Projet 1]</div> 
+            <div class="project-content"> 
+              <h3>[Nom du Projet 1]</h3> 
+              <p>[Description courte du projet 1]</p> 
+              <a href="#" class="project-link">Voir le projet →</a> 
+            </div> 
+          </div> 
+          <div class="project-card"> 
+            <div class="project-image">[Projet 2]</div>
+            <div class="project-content">
+              <h3>[Nom du Projet 2]</h3>
+              <p>[Description courte du projet 2]</p> 
+              <a href="#" class="project-link">Voir le projet →</a> 
+            </div> 
+          </div>
+        </div>
+      </div> 
+    </section>
+    
+    <!-- ===== CONTACT SECTION / FORM ===== -->
+    <section class="contact" id="contact"> 
+      <div class="container"> <h2>Me Contacter</h2> 
+        <form class="contact-form"> 
+          <div class="form-group"> 
+            <label for="name">Votre nom</label> 
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="form-group"> 
+            <label for="email">Votre email</label> 
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group"> 
+            <label for="message">Votre message</label> 
+            <textarea id="message" name="message"></textarea> </div> 
+          <button type="submit" class="submit-button">Envoyer</button> 
+        </form> 
+      </div>
+    </section>
+    
+    <!-- ===== FOOTER ===== -->
     <footer>
-        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    <div class="container">
+      <div class="footer-content"> 
+        <div class="footer-section">
+          <h3>À propos</h3> 
+          <p>[Une courte phrase sur vous et votre domaine]</p> 
+        </div>
+        <div class="footer-section"> 
+          <h3>Liens rapides</h3>
+          <p><a href="#about" style="color: #0071e3; text-decoration: none;">À propos</a></p> 
+          <p><a href="#projects" style="color: #0071e3; text-decoration: none;">Projets</a></p>
+          <p><a href="#contact" style="color: #0071e3; text-decoration: none;">Contact</a></p>
+        </div> 
+        <div class="footer-section"> 
+          <h3>Suivez-moi</h3> 
+          <div class="social-links">
+            <a href="#">🐙</a> 
+            <a href="#">💼</a> 
+            <a href="#">🐦</a> 
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom"> © 2025 [Votre Nom]. Tous droits réservés. </div> 
+      </div> 
     </footer>
- </body>
+  </body> 
 </html>
